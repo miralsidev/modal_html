@@ -7,7 +7,9 @@ document.getElementById('open-filters-button').addEventListener('click', functio
 document.getElementById('clear-filters-button').addEventListener('click', function() {
     document.getElementById('option-items-container').innerHTML = '';
 });
-
+document.querySelector('.filter-back').addEventListener('click', function() {
+    document.getElementById('filters').style.display = 'none';
+});
 let companyList = [
     "Accenture", "Adobe Inc.", "Amazon Web Services", "Apple Inc.", "Cisco Systems Inc.",
     "Dell Technologies Inc.", "Facebook Inc.", "Google (Alphabet Inc.)",

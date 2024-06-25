@@ -318,7 +318,7 @@ div.popular-job-details-div div.popular-job-location {
     font-size: 17.8px;
 }
 
-#filter-on {
+/* #filter-on {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -329,254 +329,9 @@ div.popular-job-details-div div.popular-job-location {
     background-color: #000000;
     z-index: 11;
     overflow-y: hidden;
-}
-/* --------------------------- */
-#filters {
-    position: absolute;
-    z-index: 13;
-    display: flex;
-    justify-content: center;
-    display: none;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-}
+} */
 
-#filters-box {
-    background-color: #ffffff;
-    overflow: hidden;
-    border-radius: 7.5px;
-    text-align: left;
 
-}
-
-.filterResBox {
-    background-color: #ffffff;
-    height: 700px;
-    border-radius: 7.5px;
-    flex-direction: column;
-    text-align: left;
-    display: none;
-}
-
-.bottomFilter {
-    display: none;
-}
-
-#filter-types-top {
-    background-color: #f2f7ff;
-
-}
-
-#filter-types {
-    width: 100%;
-    max-width: 225.5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #f2f7ff;
-}
-
-#filter-back-text {
-    margin-top: 10.25px;
-}
-
-.filter-back-img-div {
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    background-color: #00000008;
-}
-
-#filter-back-img {
-    position: absolute;
-    z-index: 100;
-    margin-top: 8.25px;
-    width: 14px;
-    transform: rotate(180deg);
-}
-
-.filter-back {
-    margin-top: 13px;
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 16.5px;
-    padding-top: 3.5px;
-    padding-bottom: 13px;
-    margin-bottom: 17px;
-}
-
-#clear-filters-div {
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-}
-
-#clear-filters-button-div {
-    position: absolute;
-    top: 22px;
-    right: 40px;
-}
-
-#clear-filters-button {
-    background: none;
-    border: none;
-    color: #a6a6a6;
-    font-size: 16.25px;
-}
-
-#clear-filters-divModal {
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    margin-bottom: 89px;
-}
-
-#clear-filters-button-divModal {
-    position: absolute;
-    top: 26px;
-    right: 40px;
-}
-
-.filterButton {
-    background-color: transparent !important;
-    border: none;
-    color: #a6a6a6;
-    cursor: pointer;
-}
-
-.filter-items-list {
-    overflow-y: auto;
-}
-
-.filter-items {
-    padding-left: 33px;
-    font-size: 16.5px;
-    font-weight: 600;
-    padding-top: 18.3px;
-    padding-bottom: 18.3px;
-    cursor: pointer;
-}
-
-.filter-items:hover {
-    background-color: #ffffff;
-    color: #3663fc;
-}
-
-#add-filter-button-div {
-    padding: 12px;
-
-    z-index: 121231312;
-    position: relative;
-}
-
-.addFilter {
-    width: 100%;
-
-    color: #ffffff;
-    background-color: #a9cbfa;
-    border: none;
-    border-radius: 8px;
-    height: 57.5px;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-#filter-options {
-    width: 100%;
-    height: 100px;
-    background-color: #ffffff;
-}
-/* --------------------- */
-.option-items-container {
-    display: flex;
-    margin-top: 10px;    
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.option-items {
-    margin-top: 4.65px;
-    margin-bottom: 3.65px;
-}
-
-.option-items-list {
-    overflow-y: auto;
-}
-
-.option-item-checkboxes {
-    margin-right: 10px;
-    width: 19px;
-    height: 19px;
-}
-
-.option-item-labels {
-    font-size: 17.75px;
-    margin-top: 2.5px;
-}
-
-.country-select-div {
-    display: flex;
-    justify-content: center;
-    margin-left: 46px;
-}
-
-.country-select {
-    width: 393px;
-    margin-left: 2px;
-    outline: none;
-    border: 1.4px solid black;
-    border-radius: 7.5px;
-    padding-left: 10px;
-    font-size: 16.5px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 27px;
-    background-color: #f2f7ff;
-}
-
-.salary-container-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
-    margin-left: 49px;
-}
-
-.salary-container-currency {
-    padding-top: 14px;
-    background-color: #f2f7ff;
-    border-radius: 4px;
-    width: 395px;
-    text-align: center;
-    height: 37px;
-    margin-bottom: 22px;
-    font-size: 17px;
-}
-
-.salary-container-input {
-    margin-top: 11.5px;
-    width: 380px;
-    border-radius: 5px;
-    outline: none;
-    height: 45px;
-    border: 1.4px solid black;
-    padding-left: 7px;
-    margin-left: -3px;
-    text-align: center;
-    font-size: 17px;
-}
-
-.salary-container-input::placeholder {
-    font-size: 17px;
-    color: #a9cbfa;
-    text-align: center;
-}
 
 .main-portion {
     position: relative;
@@ -610,15 +365,15 @@ div.popular-job-details-div div.popular-job-location {
     justify-content: end !important;
 }
 
-.filter-types-bottom {
+/* .filter-types-bottom {
     width: 100%;
     padding: 12px;
     height: 200px;
     background: #004aad;
-}
+} */
 
 @media only screen and (max-width: 1080px) {
-    .add-filter-button-div{
+    /* .add-filter-button-div{
         background-color: #ffffff !important;
     }
 
@@ -632,7 +387,7 @@ div.popular-job-details-div div.popular-job-location {
 
     .bottomFilter {
         display: block;
-    }
+    } */
 
     .top-portion {
         height: 9.5vw;
@@ -681,7 +436,7 @@ div.popular-job-details-div div.popular-job-location {
         padding-top: 0.4vw;
     }
 
-    #search-text::placeholder,
+    /* #search-text::placeholder,
     #search-text {
         font-size: 3.4vw;
     }
@@ -695,7 +450,7 @@ div.popular-job-details-div div.popular-job-location {
         width: 9.3vw;
         height: 9.3vw;
         background-color: #000000;
-    }
+    } */
 
     .section-heading {
         font-size: 20px;
@@ -794,35 +549,33 @@ div.popular-job-details-div div.popular-job-location {
         margin-left: 0.25vw;
     }
 
-    #filters {
-        margin-left: 0px;
-    }
 
-    #filters-box-mini {
+
+    /* #filters-box-mini {
         position: fixed;
         right: 0;
         width: 100%;
         height: 100vh;
         background-color: #ffffff;
         flex-direction: column;
-    }
+    } */
 
-    #filter-types {
+    /* #filter-types {
         height: 100vh;
-    }
+    } */
 
-    #filter-types-top {
+    /* #filter-types-top {
         height: fit-content;
         background-color: #ffffff;
         border-bottom: 1pt solid hsla(0, 0%, 83%, 0.5);
-    }
+    } */
 
-    .filter-items {
+    /* .filter-items {
         padding: 13px 17px;
         font-size: 12px;
 
         cursor: pointer;
-    }
+    } */
 
     .option-items {
         padding-left: 18.56px;
@@ -837,13 +590,13 @@ div.popular-job-details-div div.popular-job-location {
 
     .option-item-labels {
         font-size: 12px;
-        
+
     }
 
-    .addFilter {
+    /* .addFilter {
         width: 100%;
         max-width: 100%;
-    }
+    } */
 
     .country-select-div {
         margin-left: 0px;
@@ -860,164 +613,6 @@ div.popular-job-details-div div.popular-job-location {
         margin-top: 1.7vw;
         margin-bottom: 5.45vw;
         margin-right: 0px;
-    }
-
-    #filter-types-top {
-        justify-content: space-between;
-    }
-
-    #clear-filters-button-div {
-        margin-right: 2.9vw;
-        right: inherit;
-    }
-
-    #clear-filters-button {
-        font-size: 13px;
-        text-wrap: nowrap;
-        border: none;
-    }
-
-    #clear-filters-div {
-        height: 9.9vw;
-        margin-top: 0vw;
-        margin-bottom: 1.5vw;
-        border-bottom: none;
-    }
-
-    .filter-back {
-        padding-top: 2.1vw;
-        background-color: #ffffff;
-        height: 7.1vw;
-        margin-left: 0vw;
-        margin-top: 1.5vw;
-        margin-bottom: 1.5vw;
-    }
-
-    .filter-back-img-div {
-        margin-left: 1.4vw;
-        margin-right: 1.9vw;
-        width: 7vw;
-        height: 7vw;
-        border-radius: 50%;
-    }
-
-    #filter-back-img {
-        margin-top: 1.5vw;
-        width: 2.5vw;
-    }
-
-    #filter-back-text {
-        margin-top: 1.5vw;
-        font-size: 3.53vw;
-    }
-
-    .salary-container-div {
-        margin-top: 5.7vw;
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-    .salary-container-currency {
-        height: 6.4vw;
-        width: 57.55vw;
-        margin-bottom: 3.8vw;
-        font-size: 3.05vw;
-        border-radius: 1.5vw;
-        padding-top: 3vw;
-    }
-
-    .salary-container-input {
-        margin-top: 3.8vw;
-        height: 8.55vw;
-        width: 53.8vw;
-        margin-left: -0.1vw;
-        border: 0.4vw solid black;
-        border-radius: 2vw;
-
-    }
-
-    .hFont {
-        font-size: 15.9px !important;
-    }
-
-    .nFont {
-        font-size: 15px !important;
-    }
-    
-    #filter-types {
-        height: calc(100vh - 111.32px);
-        max-width:  130px;
-    }
-    .option-items-container {
-        height: calc(100vh - 111px);
-    }
-
-}
-
-.filter-types-middle{
-    height: calc(100vh - 112px);
-}
-
-@media only screen and (max-width: 600px) {
-
-
-    .addFilter {
-        width: 100%;
-    }
-
-    .nFont {
-        font-size: 15px !important;
-    }
-
-    #waiting-text>.nFont {
-        font-weight: bolder !important;
-    }
-
-    .hFont {
-        font-size: 18px !important;
-    }
-
-    .popular-job-details-div {
-        justify-content: space-between;
-    }
-
-    .popular-job-top-div {
-        display: flex;
-        justify-content: baseline;
-        align-items: center;
-    }
-
-    .popular-job-img-div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .popular-job-items {
-        flex: 1 0 260px;
-        padding: 10px;
-        height: auto;
-        margin-left: 5.5px;
-        margin-right: 7.5px;
-    }
-
-    .btnAll {
-        text-wrap: nowrap;
-        font-size: 10px !important;
-        padding: 5px 5px !important;
-        flex: 1 0 45px;
-    }
-
-    .recent-job-company {
-        margin-bottom: 7px;
-    }
-
-    .recent-job-details {
-        font-size: 12px !important;
-    }
-
-    .recent-job-items {
-        flex: 1 0 42vh;
     }
 
 }
