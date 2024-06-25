@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Modal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <button id="open-filters-button">Open Filters</button>
+
+    <div id="filters" class="modal">
+        <div id="filters-box-mini">
+
+            <div id="filter-types-top" class="flex-row">
+                <div class="filter-back flex-row">
+
+                    <div class="flex-row  align-items">
+                        <div class="filter-back-img-div">
+                            <img src="../jobHome/desktop-view/Side Arrows - (Black).svg" alt="" id="filter-back-img">
+
+                        </div>
+                        <div id="filter-back-text" class="hFont">Filters</div>
+
+
+
+                    </div>
+                </div>
+
+                <div id="clear-filters-div">
+                    <div id="clear-filters-button-div">
+                        <button id="clear-filters-button">Clear Filters</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="filter-types-middle" class="flex-row">
+                <div id="filter-types">
+                    <div class="filter-items-list">
+                        <div class="filter-items" data-filter="companyList">Company</div>
+                        <div class="filter-items" data-filter="jobs">Job Role</div>
+                        <div class="filter-items" data-filter="employmentTypes">Job Type</div>
+                        <div class="filter-items" data-filter="workArrangements">Workplace Type</div>
+                        <div class="filter-items" data-filter="cityList">Job Location</div>
+                        <div class="filter-items" data-filter="workExperience">Work Experience</div>
+                        <div class="filter-items" data-filter="salaryRange">Salary Range</div>
+
+                    </div>
+                    <div id="add-filter-button-div">
+                        <button id="add-filter-button" class="addFilter hFont">Add filter</button>
+                    </div>
+                </div>
+                <div id="filter-options">
+                    <div class="option-items-container" id="option-items-container">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="filter-types-bottom-btn">Add filter</button>
+
+            </div>
+
+    
+        </div>
+     
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

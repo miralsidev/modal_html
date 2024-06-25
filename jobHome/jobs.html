@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../jobHome/desktop-view/main.css">
+
+    <link rel="stylesheet" href="../jobHome/desktop-view/desktop-view.css">
+    <title>Jobs</title>
+</head>
+
+<body>
+    <div id="menu-on"></div>
+    <div id="filter-on"></div>
+    <div id="filters">
+        <div id="filters-box-mini">
+            <div id="filter-types-top" class="flex-row">
+                <div class="filter-back flex-row">
+                    <div class="filter-back-img-div">
+                        <img src="../jobHome/desktop-view/Side Arrows - (Black).svg" alt="" id="filter-back-img">
+                    </div>
+                    <div id="filter-back-text" class="hFont">Filters</div>
+                </div>
+                <div id="clear-filters-div">
+                    <div id="clear-filters-button-div">
+                        <button id="clear-filters-button">Clear Filterss</button>
+                    </div>
+                </div>
+            </div>
+            <div id="filter-types-middle" class="flex-row">
+                <div id="filter-types">
+                    <div class="filter-items-list">
+                        <div class="filter-items" id="companyList">Company</div>
+                        <div class="filter-items" id="jobs">Job Role</div>
+                        <div class="filter-items" id="employeeTypes">Job Type</div>
+                        <div class="filter-items" id="workArrangement">Workplace Type</div>
+                        <div class="filter-items" id="cityList">Job Location</div>
+                        <div class="filter-items" id="years">Work Experience</div>
+                        <div class="filter-items" id="salaryRange">Salary Range</div>
+                    </div>
+                </div>
+                <div id="filter-options">
+                    <div class="option-items-container">
+                    </div>
+                </div>
+            </div>
+            <div id="filter-types-bottom" class="bottomFilter">
+                <div id="add-filter-button-div">
+                    <button id="add-filter-button" class="addFilter" class="hFont">
+                        Add filter
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="filters-box"  class="flex-row">
+            <div id="filter-types" class="deskFilter">
+                <div id="filter-types-top">
+                    <div class="filter-back flex-row">
+                        <div class="filter-back-img-div">
+                            <img src="../jobHome/desktop-view/Side Arrows - (Black).svg" alt="" id="filter-back-img">
+                        </div>
+                        <div id="filter-back-text" class="hFont">Filters</div>
+                    </div>
+                    <div class="filter-items-list ">
+                        <div class="filter-items" id="companyList">Company</div>
+                        <div class="filter-items" id="jobs">Job Role</div>
+                        <div class="filter-items" id="employeeTypes">Job Type</div>
+                        <div class="filter-items" id="workArrangement">Workplace Type</div>
+                        <div class="filter-items" id="cityList">Job Location</div>
+                        <div class="filter-items" id="years">Work Experience</div>
+                        <div class="filter-items" id="salaryRange">Salary Range</div>
+                    </div>
+                </div>
+                <div id="filter-types-bottom" class="">
+                    <div id="add-filter-button-div">
+                        <button id="add-filter-button hFont" class="addFilter">
+                            Add filter
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="filter-options" class="deskFilter">
+                <div id="clear-filters-divModal">
+                    <div id="clear-filters-button-divModal">
+                        <button class="filterButton" id="clear-filters-buttonModal hFont">Clear Filters</button>
+                    </div>
+                </div>
+                <div class="option-items-container">
+                </div>
+            </div>  
+
+            <div class="flex-row filterResBox">
+                <div id="filter-types">
+                    <div id="filter-types-top">
+                        <div class="filter-back flex-row">
+                            <div class="filter-back-img-div">
+                                <img src="../jobHome/desktop-view/Side Arrows - (Black).svg" alt=""
+                                    id="filter-back-img">
+                            </div>
+                            <div id="filter-back-text" class="hFont">Filters</div>
+                        </div>
+                        <div class="filter-items-list ">
+                            <div class="filter-items" id="companyList">Company</div>
+                            <div class="filter-items" id="jobs">Job Role</div>
+                            <div class="filter-items" id="employeeTypes">Job Type</div>
+                            <div class="filter-items" id="workArrangement">Workplace Type</div>
+                            <div class="filter-items" id="cityList">Job Location</div>
+                            <div class="filter-items" id="years">Work Experience</div>
+                            <div class="filter-items" id="salaryRange">Salary Range</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="filter-options">
+                    <div id="clear-filters-divModal">
+                        <div id="clear-filters-button-divModal">
+                            <button class="filterButton" id="clear-filters-buttonModal hFont">Clear Filters</button>
+                        </div>
+                    </div>
+                    <div class="option-items-container">
+                    </div>
+                </div>
+                
+            </div>
+            <div id="filter-types-bottom" class="bottomFilter">
+                <div id="add-filter-button-div">
+                    <button id="add-filter-button hFont" class="addFilter">
+                        Add filter
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    
+    
+    
+    
+    <!-- <div id="filters">
+        <div id="filters-box">
+            <div id="filter-types-top">
+                <div class="filter-back">
+                    <div class="filter-back-img-div">
+                        <img src="../jobHome/desktop-view/Side Arrows - (Black).svg" alt="" id="filter-back-img">
+                    </div>
+                    <div id="filter-back-text" class="hFont">Filters</div>
+                </div>
+                <div id="clear-filters-div">
+                    <div id="clear-filters-button-div">
+                        <button id="clear-filters-button">Clear Filters</button>
+                    </div>
+                </div>
+            </div>
+            <div id="filter-types-middle">
+                <div class="filter-items-list">
+                    <div class="filter-items" id="companyList">Company</div>
+                    <div class="filter-items" id="jobs">Job Role</div>
+                    <div class="filter-items" id="employeeTypes">Job Type</div>
+                    <div class="filter-items" id="workArrangement">Workplace Type</div>
+                    <div class="filter-items" id="cityList">Job Location</div>
+                    <div class="filter-items" id="years">Work Experience</div>
+                    <div class="filter-items" id="salaryRange">Salary Range</div>
+                </div>
+            </div>
+            <div id="filter-types-bottom">
+                <div id="add-filter-button-div">
+                    <button id="add-filter-button" class="hFont">Add filter</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <div class="welcome-portion flex-row">
+        <div id="waiting-text">
+            <div id="name" class="hFont">Hey Natasha!!</div>
+            <div id="awaits" class="nFont">Your Next Career Opportunity Awaits!</div>
+        </div>
+        <div id="menu">
+            <div class="menu-img-div flex-row">
+                <div style="width: 100%;"></div>
+                <img src="../jobHome/desktop-view/menu-circle.png" alt="" id="menu-img">
+            </div>
+            <div id="menu-list">
+                <div class="menu-list-items">Your Resume</div>
+                <div class="menu-list-items">Applied Jobs</div>
+                <div class="menu-list-items">Job Replies</div>
+                <div class="menu-list-items">Recruiter Portal</div>
+            </div>
+        </div>
+    </div>
+    <div class="searchMainSection">
+        <div class="main-portion">
+            <div class="search-section">
+                <div class="search-box flex-row">
+                    <input type="text" id="search-text" placeholder="Search">
+                    <div class="search-img-div">
+                        <img src="../jobHome/desktop-view/search.png" alt="" id="search-img">
+                    </div>
+                </div>
+                <div class="search-filter-img-div">
+                    <img src="../jobHome/desktop-view/filter.png" alt="" id="search-filter-img">
+                </div>
+            </div>
+            <div class="containerCenter costomClass">
+                <div class="populerJobContainer">
+                    <div class="section-heading hFont">
+                        Popular Jobs
+                    </div>
+                    <div style="overflow-y: hidden; overflow-x: scroll;">
+                        <div class="section-list flex-row" id="popular-jobs-list">
+                            <div class="popular-job-items">
+                                <div class="popular-job-top-div flex-row">
+                                    <div class="popular-job-img-div">
+                                        <img src="../jobHome/desktop-view/tcs.png" alt="" class="popular-job-img">
+                                    </div>
+                                    <div class="popular-job-text">
+                                        <div class="popular-job-company hFont">
+                                            TCS
+                                        </div>
+                                        <div class="popular-job-location nFont">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-job-text-div">
+                                    <div class="popular-job-position hFont">
+                                        Senior Back-end Developer
+                                    </div>
+                                    <div class="popular-job-minimum-experience nFont">
+                                        Minimum 5+ years of experience
+                                    </div>
+                                </div>
+                                <div class="popular-job-details-div flex-row g-2">
+                                    <div class="btnAll nFont">
+                                        11 - 20 lakh
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        Full Time
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        On-site
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular-job-items">
+                                <div class="popular-job-top-div flex-row">
+                                    <div class="popular-job-img-div">
+                                        <img src="../jobHome/desktop-view/ms.png" alt="" class="popular-job-img">
+                                    </div>
+                                    <div class="popular-job-text">
+                                        <div class="popular-job-company nFont">
+                                            Microsoft
+                                        </div>
+                                        <div class="popular-job-location nFont">
+                                            Mumbai, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-job-text-div">
+                                    <div class="popular-job-position hFont">
+                                        Senior Data Specialist
+                                    </div>
+                                    <div class="popular-job-minimum-experience nFont">
+                                        Minimum 5+ years of experience
+                                    </div>
+                                </div>
+                                <div class="popular-job-details-div flex-row g-2">
+                                    <div class="btnAll nFont">
+                                        11 - 20 lakh
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        Full Time
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        On-site
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular-job-items">
+                                <div class="popular-job-top-div flex-row">
+                                    <div class="popular-job-img-div">
+                                        <img src="../jobHome/desktop-view/amazon.png" alt="" class="popular-job-img">
+                                    </div>
+                                    <div class="popular-job-text">
+                                        <div class="popular-job-company nFont">
+                                            Amazon
+                                        </div>
+                                        <div class="popular-job-location nFont">
+                                            Chennai, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-job-text-div">
+                                    <div class="popular-job-position hFont">
+                                        Senior Cloud Specialist
+                                    </div>
+                                    <div class="popular-job-minimum-experience nFont">
+                                        Minimum 5+ years of experience
+                                    </div>
+                                </div>
+                                <div class="popular-job-details-div flex-row g-2">
+                                    <div class="btnAll nFont">
+                                        11 - 20 lakh
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        Full Time
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        On-site
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular-job-items">
+                                <div class="popular-job-top-div flex-row">
+                                    <div class="popular-job-img-div">
+                                        <img src="../jobHome/desktop-view/apple.png" alt="" class="popular-job-img">
+                                    </div>
+                                    <div class="popular-job-text">
+                                        <div class="popular-job-company nFont">
+                                            Apple
+                                        </div>
+                                        <div class="popular-job-location nFont">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-job-text-div">
+                                    <div class="popular-job-position hFont">
+                                        Senior Swift Developer
+                                    </div>
+                                    <div class="popular-job-minimum-experience nFont">
+                                        Minimum 5+ years of experience
+                                    </div>
+                                </div>
+                                <div class="popular-job-details-div flex-row g-2">
+                                    <div class="btnAll nFont">
+                                        11 - 20 lakh
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        Full Time
+                                    </div>
+                                    <div class="btnAll nFont">
+                                        On-site
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerCenter">
+                <div class="recentSection">
+                    <div class="section-heading hFont">
+                        Recent Jobs
+                    </div>
+                    <div class="section-list flex-row" id="recent-jobs-list">
+                        <div class="recent-job-items flex-row">
+                            <div class="recent-job-img-div">
+                                <img class="recent-job-img" src="../jobHome/desktop-view/capgemini-main.png" alt="">
+                            </div>
+                            <div class="recent-job-text-div">
+                                <div class="recent-job-company hFont">
+                                    Capgemini
+                                </div>
+                                <div class="recent-job-details nFont">
+                                    #Senior Salesforce Developer #Full Time #4 - 5 lakh/year #On-site #Minimum 2+ years
+                                    of
+                                    experience #Bangalore, India
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-job-items flex-row">
+                            <div class="recent-job-img-div">
+                                <img class="recent-job-img" src="../jobHome/desktop-view/oracle-main.png" alt="">
+                            </div>
+                            <div class="recent-job-text-div">
+                                <div class="recent-job-company hFont">
+                                    Oracle
+                                </div>
+                                <div class="recent-job-details nFont">
+                                    #Database Engineer #Full Time #5 - 6 lakh/year #On-site #Minimum 3+ years of
+                                    experience
+                                    #Mumbai, India
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-job-items flex-row">
+                            <div class="recent-job-img-div">
+                                <img class="recent-job-img" src="../jobHome/desktop-view/adobe-main.png" alt="">
+                            </div>
+                            <div class="recent-job-text-div">
+                                <div class="recent-job-company hFont">
+                                    Adobe
+                                </div>
+                                <div class="recent-job-details nFont">
+                                    #Back-end Developer #Full Time #8 - 9 lakh/year #On-site #Minimum 2+ years of
+                                    experience
+                                    #Bangalore, India
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-job-items flex-row">
+                            <div class="recent-job-img-div">
+                                <img class="recent-job-img" src="../jobHome/desktop-view/ibm-main.png" alt="">
+                            </div>
+                            <div class="recent-job-text-div">
+                                <div class="recent-job-company hFont">
+                                    IBM
+                                </div>
+                                <div class="recent-job-details nFont">
+                                    #Data Analyst #Full Time #5 - 6 lakh/year #On-site #Minimum 2+ years of experience
+                                    #Hyderabad, India
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-job-items flex-row">
+                            <div class="recent-job-img-div">
+                                <img class="recent-job-img" src="../jobHome/desktop-view/tcs-main.png" alt="">
+                            </div>
+                            <div class="recent-job-text-div">
+                                <div class="recent-job-company hFont">
+                                    TCS
+                                </div>
+                                <div class="recent-job-details nFont">
+                                    Java Developer #Full Time #6 - 7 lakh/year #On-site #Minimum 3+ years of experience
+                                    #Chennai, India
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-job-items flex-row">
+                            <div class="recent-job-img-div">
+                                <img class="recent-job-img" src="../jobHome/desktop-view/capgemini-main.png" alt="">
+                            </div>
+                            <div class="recent-job-text-div">
+                                <div class="recent-job-company hFont">
+                                    Capgemini
+                                </div>
+                                <div class="recent-job-details nFont">
+                                    #Associate Technical Support Engineer #Full Time #5 - 6 lakh/year #On-site #Minimum
+                                    2+
+                                    years
+                                    of experience #Bangalore, India
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../jobHome/desktop-view/jobs-script.js">
+</script>
+
+</html>

@@ -1,0 +1,174 @@
+@media only screen and (min-width: 1081px) {
+    .welcome-portion {
+        height: 136.32px !important; /* 7.1vw * 19.2 */
+    }
+
+    #menu {
+        right: 99.84px !important; /* 5.2vw * 19.2 */
+    }
+
+    #menu-list {
+        /* width: 161.28px !important; /* 8.4vw * 19.2 */
+        padding-top: 3.84px !important; /* 0.2vw * 19.2 */
+        padding-bottom: 3.84px !important; /* 0.2vw * 19.2 */
+    }
+
+    .menu-list-items {
+        padding-right: 19.2px !important; /* 1vw * 19.2 */
+        font-size: 16.4px;
+        font-weight: 400;
+        margin-top: 7.68px !important; /* 0.4vw * 19.2 */
+        margin-bottom: 7.68px !important; /* 0.4vw * 19.2 */
+    }
+
+    #name {
+        margin-top: 9.6px !important; /* 0.5vw * 19.2 */
+        font-size: 23.04px !important; /* 1.2vw * 19.2 */
+    }
+
+    #awaits {
+        font-size: 22.08px !important; /* 1.15vw * 19.2 */
+        font-weight: bold !important;
+    }
+
+    .search-section {
+        margin-top: 28.8px !important; /* 1.5vw * 19.2 */
+    }
+
+    .search-box {
+        margin-left: -9.6px !important; /* -0.5vw * 19.2 */
+        width: 700.8px !important; /* 36.5vw * 19.2 */
+        height: 52.8px !important; /* 2.75vw * 19.2 */
+        margin-right: 3.84px !important; /* 0.2vw * 19.2 */
+        margin-bottom: 7.68px !important; /* 0.4vw * 19.2 */
+        padding-right: 9.6px !important; /* 0.5vw * 19.2 */
+        border-radius: 7.68px !important; /* 0.4vw * 19.2 */
+    }
+
+    .search-img-div,
+    #search-img {
+        width: 48px !important; /* 2.5vw * 19.2 */
+        height: 48px !important; /* 2.5vw * 19.2 */
+    }
+
+    .search-filter-img-div,
+    #search-filter-img {
+        width: 52.8px !important; /* 2.75vw * 19.2 */
+        height: 52.8px !important; /* 2.75vw * 19.2 */
+    }
+
+    .section {
+        /* margin-top: 36.48px !important; /* 1.9vw * 19.2 */
+        margin-left: 100.8px !important; /* 5.25vw * 19.2 */
+    }
+
+    .popular-job-img,
+    .popular-job-img-div {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .popular-job-details-div div {}
+
+    .popular-job-minimum-experience {
+        /* margin-top: 7.68px !important; /* 0.4vw * 19.2 */
+        font-size: 17.28px !important; /* 0.9vw * 19.2 */
+    }
+
+    .popular-job-location {}
+
+    .popular-job-company {
+        margin-top: 3.84px !important; /* 0.2vw * 19.2 */
+    }
+
+    .popular-job-position {}
+
+    .section-heading {
+        font-size: 24.96px !important; /* 1.3vw * 19.2 */
+        margin-bottom: 19.2px !important; /* 1vw * 19.2 */
+    }
+
+    #recent-jobs-list {
+        margin-left: -21.12px !important; /* -1.1vw * 19.2 */
+        /* margin-top: -21.12px !important; /* -1.1vw * 19.2 */
+    }
+
+    .recent-job-company {
+        font-size: 19.2px !important; /* 1vw * 19.2 */
+    }
+
+    .recent-job-items {
+        flex: 1 1 0 auto;
+        margin-left: 23.04px !important; /* 1.2vw * 19.2 */
+        margin-left: 23.04px !important; /* 1.2vw * 19.2 */
+        margin-top: 17.28px !important; /* 0.9vw * 19.2 */
+        margin-bottom: 17.28px !important; /* 0.9vw * 19.2 */
+        padding: 12px 12px 12px 18px;
+    }
+
+    .recent-job-img {
+        width: 100%;
+    }
+
+    #search-text::placeholder,
+    #search-text {
+        font-size: 16.32px !important; /* 0.85vw * 19.2 */
+    }
+
+    #filters-box {
+        max-width: 100%;
+        width: 700px !important;
+        height: 42em;
+    }
+
+
+    #filter-types {
+        width: 240px !important; /* 12.5vw * 19.2 */
+    }
+
+    .filter-back {
+        margin-left: 19.2px !important; /* 1vw * 19.2 */
+        font-size: 17.28px !important; /* 0.9vw * 19.2 */
+    }
+
+    .filter-back-img-div {
+        width: 38.4px !important; /* 2vw * 19.2 */
+        height: 38.4px !important; /* 2vw * 19.2 */
+        margin-right: 9.6px !important; /* 0.5vw * 19.2 */
+    }
+
+    #filter-back-img {
+        width: 23.04px !important; /* 1.2vw * 19.2 */
+        height: 23.04px !important; /* 1.2vw * 19.2 */
+    }
+
+    .filter-items {
+        font-size: 16.4px !important;
+        
+    }
+
+    #add-filter-button {
+        width: 199.68px !important; /* 10.4vw * 19.2 */
+        margin-bottom: 1.92px !important; /* 0.1vw * 19.2 */
+    }
+
+    .option-item-labels {
+        font-size: 17.28px !important; /* 0.9vw * 19.2 */
+        margin-top: 5.76px !important; /* 0.3vw * 19.2 */
+        margin-left: -1.92px !important; /* -0.1vw * 19.2 */
+    }
+
+    .option-item-checkboxes {
+        width: 19.2px; /* 1vw * 19.2 */
+        height: 19.2px; /* 1vw * 19.2 */
+    }
+
+    .option-items-list {
+        margin-left: -19.2px; /* -1vw * 19.2 */
+    }
+
+    .option-items {
+        margin-top: 9.6px; /* 0.5vw * 19.2 */
+        margin-bottom: 9.6px; /* 0.5vw * 19.2 */
+    }
+}
