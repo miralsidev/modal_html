@@ -51,7 +51,6 @@
     position: relative;
     background-color: #f2f7ff !important;
     border-bottom-left-radius: 10px !important;
-    padding-left: 10px !important;
 }
 
 .option-item {
@@ -111,10 +110,12 @@
 
 .filter-items {
     padding-left: 15px !;
+    width: 128px;
     font-size: 12.5px;
     font-weight: 600;
     padding: 12px 10px;
     cursor: pointer;
+    padding-left: 22px !important;
 }
 
 .filter-items:hover {
@@ -124,6 +125,7 @@
 
 #filter-options {
     width: 100%;
+    padding-left: 15px;
     background-color: #ffffff;
     border-radius: 10px !important;
     border-bottom-left-radius: 0px !important;
@@ -136,6 +138,7 @@
 #add-filter-button-div {
     z-index: 121231312;
     position: absolute;
+    padding-left: 12px !important;
     width: 100% !important;
     bottom: 0px !important;
 }
@@ -150,11 +153,15 @@
     font-size: 17px;
     bottom: 0px;
     font-weight: bold;
+    margin: 14px -2px;
 }
+
+
 
 #clear-filters-button {
     background-color: transparent;
     border: none;
+    padding: 0px 20px !important;
 }
 
 
@@ -178,12 +185,23 @@
         border-radius: 0px !important;
     }
 
+    .filter-items {
+        width: auto !important;
+    }
+
     .option-items-container {
         height: 89.3vh !important;
     }
 
     .modal {
         padding: 0px !important;
+    }
+
+    .btn-mobile {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 12px;
     }
 
     .filter-back {
@@ -195,7 +213,7 @@
         width: 100%;
         border: none;
         background-color: #a9cbfa;
-
+        border-radius: 5px !important;
         color: white;
         padding: 14px 28px;
         font-size: 16px;
@@ -231,20 +249,65 @@
 
 @media (max-width:425px) {
     #filter-options {
-
         font-size: 13px;
-
     }
 
+    .filter-items {
+        font-size: 11px;
+    }
+    /* .salary-container-currency {
+       
+        background-color: #700a0a;
+     
+        height: 5px;
+        margin-bottom: 22px;
+        font-size: 17px;
+    } */
+   
 
 }
 
 @media (max-width:375px) {
     #filter-options {
+        font-size: 9px;
+    }
 
+    .filter-items {
         font-size: 9px;
 
     }
 
 
+
 }
+
+/* .salary-container-currency {
+    padding-top: 14px;
+    background-color: #f2f7ff;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    height: 37px;
+    margin-bottom: 22px;
+    font-size: 17px;
+}
+
+.salary-container-input {
+    margin-top: 11.5px;
+    width: 200px;
+
+    border-radius: 5px;
+    outline: none;
+    height: 45px;
+    border: 1.4px solid black;
+    padding-left: 7px;
+
+    text-align: center;
+    font-size: 17px;
+}
+
+.salary-container-input::placeholder {
+    font-size: 17px;
+    color: #a9cbfa;
+    text-align: center;
+} */
